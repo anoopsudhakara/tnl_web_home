@@ -753,7 +753,7 @@ header {
     line-height: 58px;
     font-weight: 700;
     padding: 0 20px;
-    text-transform: uppercase;
+    
     position: relative;
 }
 
@@ -3141,8 +3141,8 @@ li.header-weather {
     line-height: 60px;
     position: relative;
     
-    font-size: 13px;
-
+    font-size: 12px;
+    font-weight: 700;
     color: #fff;
 }
 
