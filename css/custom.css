@@ -3137,11 +3137,11 @@ li.header-weather {
 }
 
 .h3-navbar .navbar .navbar-nav>li>a {
-    padding: 0px 3px;
+    padding: 0px 5px;
     line-height: 60px;
     position: relative;
-     border-right: 1px solid #fff;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
     flex: 1;
             text-align: center;
     color: #fff;
