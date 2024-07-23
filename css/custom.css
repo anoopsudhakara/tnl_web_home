@@ -3145,6 +3145,8 @@ li.header-weather {
     flex: 1;
             text-align: center;
     color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    border-right: 9px solid rgba(255, 255, 255, 0.1);
 }
 
 .h3-navbar .navbar .navbar-nav>li>a:after {
