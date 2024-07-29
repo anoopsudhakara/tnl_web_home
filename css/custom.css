@@ -3121,13 +3121,13 @@ li.header-weather {
 }
 
 .h3-navbar {
-    border-top: 1px solid #eeeeee;
+   /* border-top: 1px solid #eeeeee;*/
 }
 
 .h3-navbar .navbar {
     position: relative;
     min-height: inherit;
-    margin-bottom: 0;
+    
     
     border: 0px solid transparent;
 }
@@ -3138,17 +3138,25 @@ li.header-weather {
 }
 
 .h3-navbar .navbar .navbar-nav>li>a {
-    padding: 0px 5px;
+    padding: 0px 3px;
     line-height: 40px;
     position: relative;
     font-weight: bold;
     font-size: 16px;
+    /* display: inline; */
+    background-color: #7B0C00;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); */
+    /* transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; */
+    text-decoration: none;
+    display: inline-block;
     flex: 1;
     text-align: center;
     color: #fff;
-   
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
     border-right: 3px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s, border-color 0.3s !important;
 }
 
 .h3-navbar .navbar .navbar-nav>li>a:after {
@@ -3156,8 +3164,8 @@ li.header-weather {
     left: 0;
     top: -1px;
     width: 0;
-    height: 3px;
-    background: #2980b9;
+    height: 5px;
+    background: #f1c40f;
     content: "";
 }
 
@@ -3167,8 +3175,8 @@ li.header-weather {
 .h3-navbar .nav>li>a:focus,
 .h3-navbar .nav>li>a:hover,
 .h3-navbar .navbar .navbar-nav>li>a:hover {
-    background: none;
-    color: #bdc3c7;
+    /*background: none;*/
+    color: #f1c40f;
 }
 
 .h3-navbar .navbar .navbar-nav>li>a:hover:after {
